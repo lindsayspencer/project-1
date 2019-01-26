@@ -54,8 +54,11 @@ class App extends React.Component {
                 </div>
                 <div className="app-body">
                     <Form names={this.state.names} language={this.state.language} handleInput={this.handleNameInput} handleSelect={this.handleLanguageSelect} handleSubmit={this.getNameCards}  />
+                    <hr />
                     <NameCards showCard={this.state.showCard} names={this.state.names} greeting={this.state.greeting}  />
                 </div>
+                <hr />
+                <p><a href="https://github.com/lindsayspencer">Lindsay Spencer</a></p>
             </div>
         );
     };

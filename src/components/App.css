@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Lato|Montserrat');
+@import url('https://fonts.googleapis.com/css?family=Lobster+Two');
 
 .app {
     font-family: "Lato", sans-serif;
@@ -21,4 +22,9 @@
 .app-body {
     width: 80%;
     margin: 100px auto 0 auto;
+}
+
+p {
+    text-align: center;
+    font-family: "Lobster Two", cursive;
 }
