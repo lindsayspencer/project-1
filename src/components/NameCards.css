@@ -1,18 +1,18 @@
-.all-cards {
+.name-cards {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
 }
 
-.name-card {
+.card {
   display: flex;
   justify-content: center;
   align-items: center;
   width: 200px;
   height: 150px;
   border-radius: 20px;
-  border: 2px solid darkblue;
-  background-color: aquamarine;
+  border: 2px solid #ec380b;
+  background-color: #a5c5c3;
   margin: 20px;
   padding: 20px;
 }
